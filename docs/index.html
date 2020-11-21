@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style/main.css">
-	<title>Та дам</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>Мой сайт</title>
+	</head>
+	<body>
+		<h1>Решение квадратного уравнения</h1>
 
-</head>
-<body>
-	<h1>Hello World!</h1>
-	<p>Это мое портфолио</p>
+		<input type="text" id="a" style="width: 15px;">x^2+
+		<input type="text" id="b" style="width: 15px;">x+<input type="text" id="c" style="width: 15px;"> =0
+		<br>
+		<p>
+			<button onclick="main()">Считать</button>
+		</p>
+		
 
-	<a href="pages/projects.html">Проекты</a><br>
-	<a href="pages/skils.html">Скилы</a>
-</body>
+		<script>
+			function main(){
+				let a = document.getElementById("a").value;
+				let b = document.getElementById("b").value;
+				let c = document.getElementById("c").value;
+
+				let D = b*b-4*a*c;
+
+				if(D>0){
+					let x1 = (-b+Math.sqrt(D))/2*a;
+					let x2 = (-b-Math.sqrt(D))/2*a;
+					alert("X1="+x1+"\nX2="+x2);
+				}else if(D==0){
+					let x1 = (-b)/2*a;
+					alert("X1="+x1);
+				}else{
+					alert("Нет корней!")
+				}
+			}
+
+		</script>
+
+	</body>
 </html>
