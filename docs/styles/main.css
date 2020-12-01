@@ -5,7 +5,7 @@ body{
 .display{
 	width: 94%;
 	margin: 2%;
-	height: 600px;
+	height: auto;
 	background-color: #00008B;
 	border: 2px solid white;
 	color: white;
@@ -20,25 +20,43 @@ body{
 .display-internal{
 	margin: 5px;
 	height: 490px;
+	padding: 20px;
 	border: 1px double white;
+	overflow-y: auto;
 }
 
 .display-panel-buttons{
 	overflow-x: auto;
 	display: flex;
+	height: auto;
 	justify-content: space-between;
 	margin: 0 10px;
 }
 .display-button{
-	height:25px;
-	width: 90px;
+	min-height: 40px;
+	height:auto;
+	width: 25%;
 	color: blue;
 	margin: 0 5px 5px 0;
 	text-align: center;
+	font-size: 22px;
 	font-family: "Courier New";
 	background-color: #F2F2F3;
 	border: none;
 }
 .display-button:hover{
 	cursor: pointer;
+	background-color: #E2E2E9;
+}
+.display-button:active{
+	cursor: pointer;
+	width: 24%;
+	background-color: #C6C6D7;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	background-color: #F2F2F3;
+	padding: 3px;
 }
