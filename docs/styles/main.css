@@ -1,0 +1,44 @@
+body{
+	background-color: #7B68EE;
+}
+
+.display{
+	width: 94%;
+	margin: 2%;
+	height: 600px;
+	background-color: #00008B;
+	border: 2px solid white;
+	color: white;
+	font-family: "Courier New";
+}
+.display-title{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.display-internal{
+	margin: 5px;
+	height: 490px;
+	border: 1px double white;
+}
+
+.display-panel-buttons{
+	overflow-x: auto;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+.display-button{
+	height:25px;
+	width: 90px;
+	color: blue;
+	margin: 0 5px 5px 0;
+	text-align: center;
+	font-family: "Courier New";
+	background-color: #F2F2F3;
+	border: none;
+}
+.display-button:hover{
+	cursor: pointer;
+}
