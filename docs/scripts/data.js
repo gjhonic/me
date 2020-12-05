@@ -38,6 +38,6 @@ let study_projects = [
 ]
 
 let System_Data = {
-  version: "0.1.1",
+  version: "0.1.2",
   author: "Андреев Евгений",
 };
