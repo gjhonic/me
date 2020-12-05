@@ -22,6 +22,20 @@ let links = [
   }
 ]
 
+let study_projects = [
+  {
+    title: "Блог",
+    description: "Обычный блог, с аутентификацией и стандартными операциями над постами",
+    tehn: "NodeJS, MySQL, Bootstrap.",
+    url: "https://github.com/gjhonic/blog_nodejs"
+  },
+  {
+    title: "To do",
+    description: "Список дел, возможность заходить в личный кабинет по имени, и добавлять задачи и помечать как выполненные",
+    tehn: "PHP, SQLite, Bootstrap.",
+    url: "https://github.com/gjhonic/todo"
+  },
+]
 
 function showProjects(){
   display = document.getElementById("display-internal");
@@ -47,4 +61,17 @@ function showLinks(){
     }
   }
   display.innerHTML = htmlLinks;
+}
+
+function showStudyProjects(){
+  display = document.getElementById("display-internal");
+  htmlProjects = "";
+
+  for(let i=0; i<study_projects.length; i++){
+    htmlProjects += "<h2>"+(i+1)+") "+study_projects[i].title+"</h2>";
+    htmlProjects += "<p>"+study_projects[i].description+"</p>";
+    htmlProjects += "<p>Инстументы: "+study_projects[i].tehn+"</p>";
+    htmlProjects += "<a href='"+study_projects[i].url+"' target='_blank'>Подробнее...</a>";
+  }
+  display.innerHTML = htmlProjects;
 }
