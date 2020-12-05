@@ -1,45 +1,36 @@
-let projects = [
-  {
-    title: "Севанд",
-    description: "Система ежедневного внутрифакультетского анализа неявок и достижений",
-    tehn: "Php, Yii2, MySQL, Bootstrap.",
-    url: "#"
-  },
-]
+//Вспомогательные функции  --->
+//Возвращает текущую дату
+function NowDate() {
+  let now = new Date()
+  return now.getHours()+":"+now.getMinutes()+":"+now.getSeconds();
+}
+//Записывает лог
+function addLog(title) {
+    let logs = document.getElementById("display-logs");
+    logs.innerHTML += "["+NowDate()+"]🢒"+title+"<br>";
+}
+//Начальная инициализация
+function init(){
+  let version = document.getElementById("display-version");
+  version.innerHTML = "Gjhonic v"+System_Data.version;
+}
+//Изменение времени на сайте
+function updateClock() {
+    var now = new Date(), // current date
+        time = now.getHours() + ':' + now.getMinutes(), // again, you get the idea
+        date = [now.getDate(),
+                now.getMonth(),
+                now.getFullYear()].join(':');
+    document.getElementById('time').innerHTML = [date, time].join(' / ');
 
-let links = [
-  {
-    title: "Вконтакте",
-    url: "https://vk.com/gjhonic",
-  },
-  {
-    title: "Instagram",
-    url: "https://www.instagram.com/gjhonic/",
-  },
-  {
-    title: "Gmail: gjh0nic@ya.ru",
-    url: null,
-  }
-]
+    setTimeout(updateClock, 1000);
+}
+// <---
 
-let study_projects = [
-  {
-    title: "Блог",
-    description: "Обычный блог, с аутентификацией и стандартными операциями над постами",
-    tehn: "NodeJS, MySQL, Bootstrap.",
-    url: "https://github.com/gjhonic/blog_nodejs"
-  },
-  {
-    title: "To do",
-    description: "Список дел, возможность заходить в личный кабинет по имени, и добавлять задачи и помечать как выполненные",
-    tehn: "PHP, SQLite, Bootstrap.",
-    url: "https://github.com/gjhonic/todo"
-  },
-]
-
+//Показывет проекты
 function showProjects(){
-  display = document.getElementById("display-internal");
-  htmlProjects = "";
+  let display = document.getElementById("display-internal");
+  let htmlProjects = "";
 
   for(let i=0; i<projects.length; i++){
     htmlProjects += "<h2>"+(i+1)+") "+projects[i].title+"</h2>";
@@ -48,11 +39,12 @@ function showProjects(){
     htmlProjects += "<a href='"+projects[i].url+"' target='_blank'>Подробнее...</a>";
   }
   display.innerHTML = htmlProjects;
+  addLog("Open projects");
 }
-
+//Показывет ссылки
 function showLinks(){
-  display = document.getElementById("display-internal");
-  htmlLinks = "";
+  let display = document.getElementById("display-internal");
+  let htmlLinks = "";
 
   for(let i=0; i<links.length; i++){
     htmlLinks += "<h2>"+(i+1)+") "+links[i].title+"</h2>";
@@ -60,12 +52,13 @@ function showLinks(){
       htmlLinks += "<a href='"+links[i].url+"' target='_blank'>Перейти...</a>";
     }
   }
+  addLog("Open links");
   display.innerHTML = htmlLinks;
 }
-
+//Показывает учебные проекты
 function showStudyProjects(){
-  display = document.getElementById("display-internal");
-  htmlProjects = "";
+  let display = document.getElementById("display-internal");
+  let htmlProjects = "";
 
   for(let i=0; i<study_projects.length; i++){
     htmlProjects += "<h2>"+(i+1)+") "+study_projects[i].title+"</h2>";
@@ -74,4 +67,10 @@ function showStudyProjects(){
     htmlProjects += "<a href='"+study_projects[i].url+"' target='_blank'>Подробнее...</a>";
   }
   display.innerHTML = htmlProjects;
+  addLog("Open study project");
 }
+
+
+
+init();
+updateClock(); // initial call

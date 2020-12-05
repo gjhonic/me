@@ -5,10 +5,10 @@ body{
 	width: 94%;
 	margin: 2%;
 	height: auto;
-	background-color: #00008B;
-	border: 2px solid white;
+	background-color: #0301A8;
+	border: 2px solid #F2F3FF;
 	color: white;
-	font-family: "Courier New";
+	font-family: "Lucida Console";
 }
 .display-title{
 	text-align: center;
@@ -17,12 +17,45 @@ body{
 	margin: 10px 0;
 }
 .display-internal{
-	margin: 5px;
+	margin: 5px 5px 3px 5px;
 	height: 490px;
 	padding: 20px;
-	border: 1px double white;
+	border: 1px double #F2F3FF;
 	overflow-y: auto;
 }
+.display-system{
+	height: 50px;
+	margin: 0 5px 5px 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.display-logs{
+	overflow-y: auto;
+	display: inline-block;
+	width: 50%;
+	height: 95%;
+	margin-right: 3px;
+	border: 1px double #F2F3FF;
+}
+.display-info{
+	width: 50%;
+	height: 95%;
+	display: flex;
+	justify-content: space-between;
+	border: 1px double #F2F3FF;
+	font-size: 14px;
+
+}
+.display-version{
+	width: 40%;
+	margin: 15px 0 0 5px;
+}
+.display-time{
+	overflow-x: auto;
+	width: 60%;
+	margin: 15px 5px 0 5px;
+}
+
 
 .display-panel-buttons{
 	overflow-x: auto;
@@ -40,7 +73,7 @@ body{
 	margin: 0 5px 5px 0;
 	text-align: center;
 	font-size: 22px;
-	font-family: "Courier New";
+	font-family: "Lucida Console";
 	background-color: #F2F2F3;
 }
 .display-button:hover{
