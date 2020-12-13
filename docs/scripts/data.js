@@ -42,12 +42,12 @@ let study_projects = [
     description: "HomePage приложения для хранения заметок",
     tehn: "JS, localStorage (Vanilla JS, Vanilla CSS)",
     url: "https://gjhonic.github.io/notes/",
-    v: "0.1.4"
+    v: "0.1.5"
   },
   {
     title: "Бвито",
     description: "Доска обьявлений",
-    tehn: "PHP, Laraver, MySQL, Bootstrap.",
+    tehn: "PHP, Laravel, MySQL, Bootstrap.",
     url: "https://github.com/gjhonic/bvito",
     v: "0.1"
   },
