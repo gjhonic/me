@@ -70,6 +70,7 @@ function showStudyProjects(){
     htmlProjects += "<h4>"+(i+1)+") "+study_projects[i].title+"</h4>";
     htmlProjects += "<p>"+study_projects[i].description+"</p>";
     htmlProjects += "<p><i>Инстументы: "+study_projects[i].tehn+"</i></p>";
+    htmlProjects += "<p><i>Ver: "+study_projects[i].v+"</i></p>";
     htmlProjects += "<a href='"+study_projects[i].url+"' target='_blank'>Подробнее...</a>";
     htmlProjects += "</div>";
   }

@@ -27,13 +27,22 @@ let study_projects = [
     title: "Блог",
     description: "Обычный блог, с аутентификацией и стандартными операциями над постами",
     tehn: "NodeJS, MySQL, Bootstrap.",
-    url: "https://github.com/gjhonic/blog_nodejs"
+    url: "https://github.com/gjhonic/blog_nodejs",
+    v: "1.0"
   },
   {
     title: "To do",
     description: "Список дел, возможность заходить в личный кабинет по имени, и добавлять задачи и помечать как выполненные",
     tehn: "PHP, SQLite, Bootstrap.",
-    url: "https://github.com/gjhonic/todo"
+    url: "https://github.com/gjhonic/todo",
+    v: "1.0"
+  },
+  {
+    title: "Бвито",
+    description: "Доска обьявлений",
+    tehn: "PHP, Laraver, MySQL, Bootstrap.",
+    url: "https://github.com/gjhonic/bvito",
+    v: "0.1"
   },
 ]
 
