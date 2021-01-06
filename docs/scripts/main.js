@@ -16,14 +16,16 @@ function init(){
 }
 //Изменение времени на сайте
 function updateClock() {
-    var now = new Date(), // current date
-        time = now.getHours() + ':' + now.getMinutes(), // again, you get the idea
-        date = [now.getDate(),
-                now.getMonth(),
-                now.getFullYear()].join(':');
-    document.getElementById('time').innerHTML = [date, time].join(' / ');
+  var now = new Date(); // current date
+  var mont = (parseInt(now.getMonth())+1);
+  mont.toString()
+  time = now.getHours() + ':' + now.getMinutes(), // again, you get the idea
+  date = [now.getDate(),
+            mont,
+            now.getFullYear()].join(':');
+  document.getElementById('time').innerHTML = [date, time].join(' / ');
 
-    setTimeout(updateClock, 1000);
+  setTimeout(updateClock, 1000);
 }
 // <---
 
