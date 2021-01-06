@@ -60,7 +60,52 @@ let study_projects = [
   },
 ]
 
+let achives = [
+  {
+    title: "Диплом 3е степени",
+    description: "",
+    src: "achievs/a1.png",
+    h: "200px",
+    w: "450px"
+  },
+  {
+    title: "Лауреат 'Национальное Достояние России'",
+    description: "",
+    src: "achievs/a2.png",
+    h: "400px",
+    w: "250px"
+  },
+  {
+    title: "Гран-при на конкурсе веб-мастер",
+    description: "",
+    src: "achievs/a3.png",
+    h: "400px",
+    w: "250px"
+  },
+  {
+    title: "Сертификат участника МНСК 2020",
+    description: "",
+    src: "achievs/a4.png",
+    h: "400px",
+    w: "250px"
+  },
+  {
+    title: "Прошел отборочный этап на Олимпиаде Волга-IT",
+    description: "",
+    src: "achievs/a5.png",
+    h: "200px",
+    w: "350px"
+  },
+  {
+    title: "Сертификат УМНИК 2019",
+    description: "",
+    src: "achievs/a6.png",
+    h: "400px",
+    w: "250px"
+  }
+]
+
 let System_Data = {
-  version: "0.1.3",
+  version: "0.1.4",
   author: "Андреев Евгений",
 };

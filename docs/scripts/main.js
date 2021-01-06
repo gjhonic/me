@@ -79,6 +79,22 @@ function showStudyProjects(){
   display.innerHTML = htmlProjects;
   addLog("Open study project");
 }
+//Показывает достижения
+function showAchiev(){
+  let display = document.getElementById("display-internal");
+  let htmlAchievs = "<h3 class='title-internal'>gjhonic-pc:\\ Мои Достижения</h3>";
+
+  for(let i=0; i<achives.length; i++){
+
+    htmlAchievs += "<div class='list-internal'>";
+    htmlAchievs += "<h4>"+(i+1)+") "+achives[i].title+"</h4>";
+    htmlAchievs += "<img src='"+achives[i].src+"' heifht='"+achives[i].h+"' width='"+achives[i].w+"'>";
+    htmlAchievs += "<p>"+achives[i].description+"</p>";
+    htmlAchievs += "</div>";
+  }
+  display.innerHTML = htmlAchievs;
+  addLog("Open achievs");
+}
 
 
 
