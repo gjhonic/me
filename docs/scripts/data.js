@@ -49,11 +49,18 @@ let study_projects = [
     description: "Доска обьявлений",
     tehn: "PHP, Laravel, MySQL, Bootstrap.",
     url: "https://github.com/gjhonic/bvito",
-    v: "0.1"
+    v: "0.2"
+  },
+  {
+    title: "AddLocalProject",
+    description: "Bash Скрипт, для добавления локального проекта (создает файл, настраивает хосты)",
+    tehn: "Bash",
+    url: "https://github.com/gjhonic/AddLocalProject",
+    v: "1.0"
   },
 ]
 
 let System_Data = {
-  version: "0.1.2",
+  version: "0.1.3",
   author: "Андреев Евгений",
 };
