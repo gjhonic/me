@@ -1,0 +1,8 @@
+
+#Me alias
+
+#Start libvirtd
+alias virtualka="systemctl start libvirtd"
+
+#Open file with passwords
+alias pass="sudo nano /home/gjhonic/FILES/My/Passwords/My.txt"
