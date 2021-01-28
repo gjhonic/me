@@ -426,3 +426,17 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #494949;
   cursor: pointer;
 }
+
+.about-projects{
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.about-projects h4{
+  text-align: center;
+  font-size: 22px;
+}
