@@ -129,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
 	background-color: #f2f2f2;
 }
 
@@ -382,4 +382,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .credits {
   color: #999;
+}
+
+.blocks_skils{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mysocial {
+  margin: 20px 10% 0px 10%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.other-skills{
+  margin: 50px 0;
+  text-align: left;
+}
+.title-other-skills{
+  font-size: 22px;
 }
