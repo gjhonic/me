@@ -5,6 +5,18 @@ let projects = [
     tehn: "Php, Yii2, MySQL, Bootstrap.",
     url: "#"
   },
+  {
+    title: "Сайт образовательного центра «Призма»",
+    description: "Система предоставляет функционал для учета успеваимости учащихся в образовательном центре, а также имеет модуль тестирования, для составления тестов и проведения этих тестов.",
+    tehn: "Php, Yii2, MySQL, Bootstrap.",
+    url: "#"
+  },
+  {
+    title: 'Сайт ГK "Стэк"',
+    description: 'Группа компаний "Стэк" - официальный партнер фирмы "1С" с 1997 года.',
+    tehn: "Php, Bitrix, Bootstrap.",
+    url: "#"
+  },
 ]
 
 let links = [
@@ -17,8 +29,8 @@ let links = [
     url: "https://www.instagram.com/gjhonic/",
   },
   {
-    title: "Gmail: gjh0nic@ya.ru",
-    url: null,
+    title: "Gmail: gjhonic@gmail.com",
+    url: 'mailto:gjhonic@gmail.com',
   }
 ]
 
@@ -42,7 +54,7 @@ let study_projects = [
     description: "HomePage приложения для хранения заметок",
     tehn: "JS, localStorage (Vanilla JS, Vanilla CSS)",
     url: "https://gjhonic.github.io/notes/",
-    v: "0.1.5"
+    v: "0.1.6"
   },
   {
     title: "Бвито",
@@ -57,6 +69,27 @@ let study_projects = [
     tehn: "Bash",
     url: "https://github.com/gjhonic/AddLocalProject",
     v: "1.0"
+  },
+  {
+    title: "LNMP",
+    description: "Docker сборка (Nginx, MySQL, PHP)",
+    tehn: "Nginx, MySQL, PHP",
+    url: "https://github.com/gjhonic/docker_lnmp",
+    v: "1.0"
+  },
+  {
+    title: "Journal",
+    description: "Добавление и просмотр журналов, авторов.",
+    tehn: "Docker, Php/Yii2, MySQL",
+    url: "https://github.com/gjhonic/journal_yii2",
+    v: "1.0"
+  },
+  {
+    title: "BotJS",
+    description: "Дискорд бот",
+    tehn: "JS, DiscordJS",
+    url: "https://github.com/gjhonic/botjs",
+    v: "0.1.1"
   },
 ]
 
