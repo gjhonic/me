@@ -1,101 +1,572 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Gjhonic - HomePage</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-			<div id="page-wrapper">
-					<div id="wrapper">
-							<section class="panel banner right">
-								<div class="content color0 span-3-75">
-									<h1 class="major">Hello, my name<br />
-									is Evgeny Andreev</h1>
-									<p>This is Programmer, backend-web developer! PHP/Yii2/Laravel. I'm glad you stopped by :)</p>
-									<ul class="actions">
-										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right" title="Next">Next</a></li>
-									</ul>
-								</div>
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
-								</div>
-							</section>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>gjhonic — PHP-разработчик (8-bit CV)</title>
+	<meta name="description" content="gjhonic — PHP-разработчик с 7+ годами опыта. Резюме в ретро 8-bit оформлении с мини-игрой в подвале страницы." />
+	<meta name="theme-color" content="#5C94FC" />
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight medium right" id="first">
-								<div class="content span-7">
-									<h2 class="major">About</h2>
-									<p>And I'm just a php programmer :)</p>
-								</div>
-								<div class="image filtered tinted" data-position="top left">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-							</section>
+	<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-loading">
 
-						<!-- Panel -->
-							<section class="panel color1">
-								<div class="intro joined">
-									<h2 class="major">My Skills</h2>
-									<p>HTML5, CSS3, Bootstrap. PHP, Yii2, Laravel. JS, JQuery, NodeJs. SQL, MySQL, SQLite. Git, Composer, Linux, Docker, PSR, REST API.</p>
-								</div>
-								<div class="inner">
-									<ul class="grid-icons">
-										<li><img src="images/icons/html.png"/></li>
-										<li><img src="images/icons/css.png"/></li>
-										<li><img src="images/icons/js.png"/></li>
-										<li><img src="images/icons/php.png"/></li>
-										<li><img src="images/icons/yii.png"/></li>
-									</ul>
-								</div>
-							</section>
-						<!-- Panel -->
-							<section class="panel">
-								<div class="intro color2">
-									<h2 class="major">My Projects</h2>
-									<p>I am mainly programming in php using yii2 framework. In the archive of my projects there are both commercial and personal projects.</p>
-								</div>
-								<div class="gallery">
-									<div class="group span-3">
-										<a href="https://github.com/gjhonic/Sevand" class="image filtered span-3" data-position="bottom" title="СЕВАНД"><img src="images/projects/1.png" alt="" /></a>
-										<a href="" class="image filtered span-1-5" data-position="center"><img src="images/projects/2.png" alt="" /></a>
-										<a href="" class="image filtered span-1-5" data-position="bottom"><img src="images/projects/3.png" alt="" /></a>
-									</div>
-									<a href="https://github.com/gjhonic/Raffle" class="image filtered span-2-5" data-position="top"><img src="images/projects/4.png" alt="" /></a>
-									<div class="group span-3">
-										<a href="https://github.com/gjhonic/todo" class="image filtered span-3" data-position="bottom"><img src="images/projects/5.png" alt="" /></a>
-										<a href="https://github.com/gjhonic/journal_yii2" class="image filtered span-1-5" data-position="center"><img src="images/projects/6.png" alt="" /></a>
-										<a href="https://github.com/gjhonic/blog_nodejs" class="image filtered span-1-5" data-position="bottom"><img src="images/projects/7.png" alt="" /></a>
-									</div>
-								</div>
-							</section>
+	<div class="preloader" id="preloader" role="status" aria-label="Загрузка страницы">
+		<div class="preloader-inner">
+			<span class="preloader-logo">★ GJHONIC ★</span>
+			<div class="preloader-coin-row" aria-hidden="true"><span class="preloader-coin"></span></div>
+			<div class="preloader-bar" aria-hidden="true">
+				<span></span><span></span><span></span><span></span>
+				<span></span><span></span><span></span><span></span>
+			</div>
+			<p class="preloader-text" aria-hidden="true">ЗАГРУЗКА МИРА 1-1<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+		</div>
+	</div>
 
-						<!-- Panel -->
-							<section class="panel color4-alt">
-								<div class="inner columns divided">
-									<div class="span-1-5">
-										<ul class="contact-icons color1">
-											<h3>gjhonic links</h3>
-											<li class="icon brands fa-vk"><a href="https://vk.com/gjhonic">vk.com/gjhonic</a></li>
-											<li class="icon brands fa-github"><a href="https://github.com/gjhonic">github.com/gjhonic</a></li>
-											<li class="icon brands fa-gitlab"><a href="https://gitlab.com/gjhonic">gitlab.com/gjhonic</a></li>
-											<li class="icon brands fa-instagram"><a href="https://www.instagram.com/gjhonic">instagram.com/gjhonic</a></li>
-											<li class="icon brands fa-discord"><a href="https://discord.gg/xVeXE9uEmp">@discord-server</a></li>
-										</ul>
-									</div>
-								</div>
-							</section>
-					</div>
+	<a class="skip-link" href="#main">Перейти к содержимому</a>
 
+	<header class="site-header" id="siteHeader">
+		<div class="wrap header-inner">
+			<a href="#top" class="logo">★ gjhonic ★</a>
+			<nav class="nav" id="nav">
+				<a href="#about" data-nav>Обо мне</a>
+				<a href="#experience" data-nav>Опыт</a>
+				<a href="#skills" data-nav>Навыки</a>
+				<a href="#projects" data-nav>Проекты</a>
+				<a href="#education" data-nav>Образование</a>
+				<a href="#contact" data-nav class="nav-cta">Контакты</a>
+			</nav>
+			<button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</header>
+
+	<main id="main">
+
+		<!-- HERO -->
+		<section class="hero" id="top">
+			<div class="hero-clouds" aria-hidden="true">
+				<span class="cloud c1"></span>
+				<span class="cloud c2"></span>
+				<span class="cloud c3"></span>
+			</div>
+			<div class="hero-hills" aria-hidden="true"></div>
+
+			<div class="wrap hero-inner">
+				<p class="kicker reveal"></p>
+				<h1 class="reveal"> <span class="hl">GJHONIC</span></h1>
+				<h2 class="hero-role reveal">PHP-разработчик <span class="muted">/ Backend</span></h2>
+				<p class="hero-desc reveal">
+					Проектирую и развиваю backend-сервисы на <strong>PHP, Symfony и Yii2</strong> — от интеграций между системами
+					до высоконагруженных модулей. Люблю доводить архитектуру до состояния, в котором её приятно поддерживать,
+					и встраивать AI в повседневную разработку.
+				</p>
+				<div class="hero-meta reveal">
+					<span class="badge">> 7 лет опыта</span>
+				</div>
+				<div class="hero-actions reveal">
+					<a href="#projects" class="btn btn-block">Смотреть проекты</a>
+					<a href="#contact" class="btn btn-pipe">Связаться</a>
+				</div>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
+			<a href="#about" class="scroll-cue" aria-label="Пролистать вниз">▼</a>
+		</section>
 
-	</body>
+		<!-- STATS -->
+		<section class="stats" aria-label="Ключевые цифры">
+			<div class="wrap stats-grid">
+				<div class="stat reveal">
+					<span class="coin" aria-hidden="true"></span>
+					<span class="stat-num" data-count="7" data-suffix="+">0</span>
+					<span class="stat-label">лет в коммерческой разработке</span>
+				</div>
+				<div class="stat reveal" style="--delay:60ms">
+					<span class="coin" aria-hidden="true"></span>
+					<span class="stat-num" data-count="1" data-suffix="m+"></span>
+					<span class="stat-label">строк кода написано</span>
+				</div>
+				<div class="stat reveal" style="--delay:120ms">
+					<span class="coin" aria-hidden="true"></span>
+					<span class="stat-num" data-count="50" data-suffix="+">0</span>
+					<span class="stat-label">проведённых тех. интервью</span>
+				</div>
+				<div class="stat reveal" style="--delay:180ms">
+					<span class="coin" aria-hidden="true"></span>
+					<span class="stat-num" data-count="6">0</span>
+					<span class="stat-label">разработчиков под менторством</span>
+				</div>
+				<div class="stat reveal" style="--delay:180ms">
+					<span class="coin" aria-hidden="true"></span>
+					<span class="stat-num" data-count="3">0</span>
+					<span class="stat-label">проекта полностью разработано через AI</span>
+				</div>
+			</div>
+		</section>
+
+		<!-- ABOUT -->
+		<section class="section" id="about">
+			<div class="wrap">
+				<h2 class="section-title reveal"><span class="mush" aria-hidden="true"></span> Обо мне</h2>
+				<div class="about-grid">
+					<div class="about-text reveal">
+						<p>
+							PHP-разработчик с 7+ годами коммерческого опыта. Специализируюсь на backend-разработке,
+							интеграциях, проектировании внутренних сервисов и развитии существующих систем.
+						</p>
+						<p>
+							Имею опыт построения архитектуры интеграций между сервисами, миграции критически важных
+							подсистем, проведения технических интервью, наставничества разработчиков и внедрения практик
+							повышения качества кода.
+						</p>
+						<p>
+							Интегрирую AI в процесс разработки: формирую контекст проекта и набор инструкций, позволяющих
+							AI генерировать решения с учётом структуры приложения, внутренних стандартов и принятых
+							архитектурных подходов — это ускоряет разработку и повышает качество изменений.
+						</p>
+					</div>
+					<ul class="about-facts reveal" style="--delay:100ms">
+						<li><span class="fact-k">Специализация</span><span class="fact-v">Backend, Разработка, AI</span></li>
+						<li><span class="fact-k">Стек</span><span class="fact-v">PHP, Symfony, Yii2, SQL</span></li>
+						<li><span class="fact-k">Формат</span><span class="fact-v">Удалённо, полная занятость</span></li>
+						<li><span class="fact-k">Языки</span><span class="fact-v">Русский — родной</span></li>
+						<li><span class="fact-k">Образование</span><span class="fact-v">Магистр математики, БГУ</span></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- EXPERIENCE -->
+		<section class="section section-alt" id="experience">
+			<div class="wrap">
+				<h2 class="section-title reveal"><span class="flag" aria-hidden="true"></span> Опыт работы</h2>
+
+				<div class="worlds">
+
+					<article class="world-card reveal">
+						<div class="world-head">
+							<span class="world-num">WORLD 1-1</span>
+							<span class="world-flag" aria-hidden="true"></span>
+						</div>
+						<h3>PHP developer <span class="at">@ <a href="https://softmus.ru/" target="_blank" rel="noopener">Softmus</a></span></h3>
+						<p class="world-sub">Системная интеграция, автоматизация бизнес-процессов, ИТ-консалтинг</p>
+						<p class="world-date">Март 2022 — настоящее время · 4 года 6 мес</p>
+						<p class="world-desc">Разработка и развитие корпоративного портала, backend-сервисов и мобильного приложения.</p>
+						<ul class="world-list">
+							<li>Разработал более <strong>40 функциональных модулей и подсистем</strong> для производственного портала — от проектирования архитектуры до сопровождения.</li>
+							<li>Спроектировал сервис доступа к данным телеметрии после миграции хранилища объёмом <strong>более 2 ТБ из MySQL в ClickHouse</strong> без масштабного изменения бизнес-логики.</li>
+							<li>Повысил стабильность кодовой базы за счёт более строгих стандартов разработки и автоматизированных проверок в Merge Request Pipeline.</li>
+							<li>Выступал наставником для <strong>6 разработчиков</strong>: адаптация, техническая документация, регулярное code review.</li>
+							<li>Провёл <strong>более 50 технических интервью</strong>, по итогам которых наняты 10 разработчиков.</li>
+							<li>Внедряет AI в процесс разработки: формирует контекст проекта и инструкции для анализа кода, рефакторинга и разработки нового функционала.</li>
+						</ul>
+						<div class="world-tags">
+							<span>PHP</span><span>Symfony</span><span>Yii2</span><span>ClickHouse</span><span>Code Review</span><span>Менторство</span>
+						</div>
+						<button class="world-more" type="button" data-modal-open="modal-exp-1">Подробнее и цифры <span aria-hidden="true">→</span></button>
+					</article>
+
+					<article class="world-card reveal">
+						<div class="world-head">
+							<span class="world-num">WORLD 1-2</span>
+							<span class="world-flag" aria-hidden="true"></span>
+						</div>
+						<h3>PHP developer <span class="at">@ PLADO.MARKET</span></h3>
+						<p class="world-sub">E-commerce платформа</p>
+						<p class="world-date">Окт 2021 — Фев 2022 · 5 мес</p>
+						<p class="world-desc">Разработка и развитие backend-функционала и интеграций e-commerce платформы.</p>
+						<ul class="world-list">
+							<li>С нуля спроектировал и реализовал <strong>интеграцию со службой доставки</strong>: архитектура взаимодействия, обмен данными, встраивание в бизнес-процессы.</li>
+							<li>Расширил функциональность <strong>Telegram-бота</strong>, добавив новые сценарии взаимодействия.</li>
+							<li>Развивал аналитические отчёты и внутренние инструменты платформы.</li>
+						</ul>
+						<div class="world-tags">
+							<span>PHP</span><span>Интеграции</span><span>Telegram Bot API</span>
+						</div>
+						<button class="world-more" type="button" data-modal-open="modal-exp-2">Подробнее и цифры <span aria-hidden="true">→</span></button>
+					</article>
+
+					<article class="world-card reveal">
+						<div class="world-head">
+							<span class="world-num">WORLD 1-3</span>
+							<span class="world-flag" aria-hidden="true"></span>
+						</div>
+						<h3>Yii2-developer <span class="at">@ <a href="https://ngym.ru/" target="_blank" rel="noopener">NanoGym</a></span></h3>
+						<p class="world-sub">CRM-система для фитнес-индустрии</p>
+						<p class="world-date">Март 2021 — Дек 2021 · 10 мес</p>
+						<p class="world-desc">Разработка и развитие функционала CRM-системы на Yii2, оптимизация и API.</p>
+						<ul class="world-list">
+							<li>Оптимизировал формирование отчётов CRM, улучшив скорость работы с большими объёмами данных.</li>
+							<li>Спроектировал и реализовал <strong>новую версию API</strong> платформы для расширения интеграций.</li>
+							<li>Выполнил миграцию пользователей между платформами с сохранением данных и работоспособности.</li>
+							<li>Разработал интеграцию со SMS-сервисом для автоматизации уведомлений.</li>
+						</ul>
+						<div class="world-tags">
+							<span>Yii2</span><span>PHP</span><span>REST API</span><span>SQL</span>
+						</div>
+						<button class="world-more" type="button" data-modal-open="modal-exp-3">Подробнее и цифры <span aria-hidden="true">→</span></button>
+					</article>
+
+					<article class="world-card reveal">
+						<div class="world-head">
+							<span class="world-num">WORLD 1-4</span>
+							<span class="world-flag" aria-hidden="true"></span>
+						</div>
+						<h3>Преподаватель клуба программистов <span class="at">@ ГК «СТЭК»</span></h3>
+						<p class="world-sub">Внутренние ИТ-решения и обучение программированию</p>
+						<p class="world-date">Ноя 2018 — Март 2021 · 2 года 5 мес</p>
+						<p class="world-desc">Разработка внутренних систем и проведение образовательных курсов по программированию для детей.</p>
+						<ul class="world-list">
+							<li>Разработал <strong>корпоративный сайт компании</strong> с нуля.</li>
+							<li>Спроектировал платформу для хранения и доступа к учебным материалам и курсам.</li>
+							<li>Разработал <strong>CRM-систему</strong> для учёта занятий, групп и учебного процесса.</li>
+							<li>Подготовил образовательные модули и методические материалы для курсов.</li>
+						</ul>
+						<div class="world-tags">
+							<span>PHP</span><span>Преподавание</span><span>CRM</span>
+						</div>
+						<button class="world-more" type="button" data-modal-open="modal-exp-4">Подробнее и цифры <span aria-hidden="true">→</span></button>
+					</article>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- SKILLS -->
+		<section class="section" id="skills">
+			<div class="wrap">
+				<h2 class="section-title reveal"><span class="qmark" aria-hidden="true">?</span> Навыки</h2>
+				<p class="section-lead reveal">Нажми на блок, чтобы узнать, что внутри.</p>
+
+				<div class="blocks-grid">
+					<button class="skill-block reveal" type="button" data-target="sb-backend" aria-expanded="false">
+						<span class="qmark" aria-hidden="true">?</span>
+						<span class="skill-block-label">Backend</span>
+					</button>
+					<button class="skill-block reveal" type="button" data-target="sb-data" aria-expanded="false" style="--delay:40ms">
+						<span class="qmark" aria-hidden="true">?</span>
+						<span class="skill-block-label">Данные</span>
+					</button>
+					<button class="skill-block reveal" type="button" data-target="sb-frontend" aria-expanded="false" style="--delay:80ms">
+						<span class="qmark" aria-hidden="true">?</span>
+						<span class="skill-block-label">Frontend</span>
+					</button>
+					<button class="skill-block reveal" type="button" data-target="sb-tools" aria-expanded="false" style="--delay:120ms">
+						<span class="qmark" aria-hidden="true">?</span>
+						<span class="skill-block-label">Инструменты</span>
+					</button>
+					<button class="skill-block reveal" type="button" data-target="sb-practices" aria-expanded="false" style="--delay:160ms">
+						<span class="qmark" aria-hidden="true">?</span>
+						<span class="skill-block-label">Практики и AI</span>
+					</button>
+				</div>
+
+				<div class="skill-reveals">
+					<div class="skill-panel" id="sb-backend"><ul class="chips"><li>PHP 8</li><li>Symfony</li><li>Yii2</li><li>Doctrine ORM</li><li>REST API</li><li>RBAC</li><li>PHPStan</li><li>PSR-12</li><li>Composer</li><li>ООП / SOLID</li></ul></div>
+					<div class="skill-panel" id="sb-data"><ul class="chips"><li>SQL</li><li>MySQL</li><li>ClickHouse</li><li>Проектирование БД</li><li>Миграции данных</li><li>Оптимизация запросов</li></ul></div>
+					<div class="skill-panel" id="sb-frontend"><ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap 5</li><li>Telegram Bot API</li></ul></div>
+					<div class="skill-panel" id="sb-tools"><ul class="chips"><li>Git</li><li>Linux</li><li>CI/CD</li><li>GitHub Actions</li><li>Docker</li><li>Nginx</li><li>PHPUnit</li><li>Postman</li></ul></div>
+					<div class="skill-panel" id="sb-practices"><ul class="chips"><li>Code Review</li><li>Наставничество</li><li>Тех. интервью</li><li>AI-assisted development</li><li>Agile / Scrum</li><li>Документирование</li></ul></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROJECTS -->
+		<section class="section section-alt" id="projects">
+			<div class="wrap">
+				<h2 class="section-title reveal"><span class="castle" aria-hidden="true"></span> Проекты</h2>
+				<p class="section-lead reveal">
+					Развиваю собственную вселенную RetroGame — от backend на Symfony до мобильного клиента на Flutter,
+					экспериментирую с геймдевом на Godot, а также поддерживаю production-систему SEVAND для вуза.
+				</p>
+
+				<div class="projects-grid">
+					<article class="project-card reveal">
+						<span class="project-tag">Web-платформа</span>
+						<h3>RetroGame</h3>
+						<p>
+							Backend-платформа на <strong>Symfony 8.1 / PHP 8.4</strong> для каталога игр с автоматической
+							синхронизацией данных из Steam. Ролевая модель доступа и админ-панель, PHPStan уровня 8 и PSR-12,
+							защищённая main-ветка с обязательным CI и автодеплоем.
+						</p>
+						<ul class="world-tags"><li>Symfony</li><li>PHP 8.4</li><li>Doctrine ORM</li><li>PHPStan</li><li>CI/CD</li></ul>
+						<div class="project-links">
+							<a href="https://24retrogame.ru/" target="_blank" rel="noopener" class="project-cta">Открыть сайт →</a>
+							<a href="https://github.com/gjhonic/RetroGame" target="_blank" rel="noopener" class="project-cta">Репозиторий на GitHub →</a>
+						</div>
+					</article>
+
+					<article class="project-card reveal" style="--delay:80ms">
+						<span class="project-tag">Мобильное приложение</span>
+						<h3>RetroGameMobile</h3>
+						<p>
+							Тонкий клиент на <strong>Flutter</strong> к публичному JSON API RetroGame: каталог с поиском
+							и пагинацией, карточки игр с оценками Metacritic, светлая/тёмная тема. Feature-first архитектура
+							для удобного масштабирования.
+						</p>
+						<ul class="world-tags"><li>Flutter</li><li>Riverpod</li><li>go_router</li><li>Dio</li><li>Freezed</li></ul>
+						<a href="https://github.com/gjhonic/RetroGameMobile" target="_blank" rel="noopener" class="project-cta">Репозиторий на GitHub →</a>
+					</article>
+
+					<article class="project-card reveal" style="--delay:160ms">
+						<span class="project-tag">Инди-игра</span>
+						<h3>CITY&#47;&#47;RUSH</h3>
+						<p>
+							Survival-roguelike от третьего лица на <strong>Godot 4.7.1</strong> (GDScript). Кодовая база
+							организована по игровым доменам, а не по типам файлов. Статический анализ и автоформатирование
+							в CI на каждый push и Pull Request.
+						</p>
+						<ul class="world-tags"><li>Godot 4</li><li>GDScript</li><li>gdtoolkit</li><li>GitHub Actions</li></ul>
+						<a href="https://github.com/gjhonic/DieAgainGame" target="_blank" rel="noopener" class="project-cta">Репозиторий на GitHub →</a>
+					</article>
+
+					<article class="project-card reveal" style="--delay:240ms">
+						<span class="project-tag">Продакшн-система вуза</span>
+						<h3>SEVAND</h3>
+						<p>
+							Система учёта посещаемости и мероприятий на <strong>Yii2 / PHP</strong> с ролевой моделью доступа
+							(RBAC) и Bootstrap 5. Активно используется факультетом в реальном учебном процессе.
+						</p>
+						<ul class="world-tags"><li>Yii2</li><li>PHP</li><li>RBAC</li><li>Bootstrap 5</li><li>MySQL</li></ul>
+						<a href="https://gitlab.com/gjhonic/sevand_new" target="_blank" rel="noopener" class="project-cta">Репозиторий на GitLab →</a>
+						<button class="world-more" type="button" data-modal-open="modal-proj-sevand">Подробнее и цифры <span aria-hidden="true">→</span></button>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- EDUCATION -->
+		<section class="section" id="education">
+			<div class="wrap">
+				<h2 class="section-title reveal"><span class="star" aria-hidden="true"></span> Образование</h2>
+				<div class="edu-card reveal">
+					<div class="edu-year">2023</div>
+					<div>
+						<h3>Бурятский государственный университет, Улан-Удэ</h3>
+						<p class="world-sub">Институт математики и информатики · направление «Математика»</p>
+						<span class="badge badge-sm">Высшее образование — Магистр</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section class="section section-alt section-contact" id="contact">
+			<div class="wrap contact-wrap">
+				<h2 class="section-title reveal"><span class="mush" aria-hidden="true"></span> Контакты</h2>
+				<p class="section-lead reveal">
+					Открыт к обсуждению удалённых backend-позиций и интересных проектов.
+					Быстрее всего со мной связаться через Telegram или email.
+				</p>
+				<div class="contact-grid reveal">
+					<a href="mailto:gjhonic@yandex.ru" class="contact-card">
+						<strong>Email</strong>
+						gjhonic@yandex.ru
+					</a>
+					<a href="https://t.me/Gjhonic" target="_blank" rel="noopener" class="contact-card">
+						<strong>Telegram</strong>
+						@Gjhonic
+					</a>
+					<a href="https://github.com/gjhonic" target="_blank" rel="noopener" class="contact-card">
+						<strong>GitHub</strong>
+						github.com/gjhonic
+					</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- FOOTER = the ground the runner plays on -->
+	<footer class="site-footer" id="runnerSection">
+		<div class="runner-hud">
+			<span class="runner-hi">HI <span id="runnerHi">00000</span></span>
+			<span class="runner-score" id="runnerScore">00000</span>
+		</div>
+		<canvas id="runnerCanvas" width="1600" height="240" aria-label="Мини-игра: беги и прыгай через ретро-противников по земле в футере"></canvas>
+		<p class="footer-credit">© <span id="year"></span> gjhonic. Долистал(а) до конца? Дальше — земля, беги!</p>
+	</footer>
+
+	<!-- EXPERIENCE MODAL -->
+	<div class="modal-overlay" id="modalOverlay">
+		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+			<button class="modal-close" type="button" id="modalClose" aria-label="Закрыть">✕</button>
+			<div class="modal-body" id="modalBody"></div>
+		</div>
+	</div>
+
+	<template id="modal-exp-1">
+		<div class="modal-head">
+			<span class="world-num">WORLD 1-1</span>
+			<span class="world-date">Март 2022 — настоящее время · 4 года 6 мес</span>
+		</div>
+		<h3 id="modalTitle">PHP developer <span class="at">@ <a href="https://softmus.ru/" target="_blank" rel="noopener">Softmus</a></span></h3>
+		<p class="world-sub">Системная интеграция, автоматизация бизнес-процессов, ИТ-консалтинг</p>
+		<p class="modal-desc">Разработка и развитие корпоративного портала, backend-сервисов и мобильного приложения.</p>
+
+		<div class="modal-stats">
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="40" data-suffix="+">0</span>
+				<span class="stat-tile-label">модулей и подсистем разработано</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="2" data-suffix=" ТБ">0</span>
+				<span class="stat-tile-label">данных мигрировано MySQL → ClickHouse</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="6">0</span>
+				<span class="stat-tile-label">разработчиков под менторством</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="50" data-suffix="+">0</span>
+				<span class="stat-tile-label">технических интервью проведено</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="10">0</span>
+				<span class="stat-tile-label">разработчиков нанято по итогам</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+		</div>
+
+		<h4 class="modal-subtitle">Ключевые результаты</h4>
+		<ul class="modal-achievements">
+			<li><span class="ach-icon" aria-hidden="true">🧩</span><span>Разработал более <strong>40 функциональных модулей и подсистем</strong> для производственного портала — от проектирования архитектуры до сопровождения.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🗄️</span><span>Спроектировал сервис доступа к данным телеметрии после миграции хранилища объёмом <strong>более 2 ТБ из MySQL в ClickHouse</strong> без масштабного изменения бизнес-логики.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🛡️</span><span>Повысил стабильность кодовой базы за счёт более строгих стандартов разработки и автоматизированных проверок в Merge Request Pipeline.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🧑‍🏫</span><span>Выступал наставником для <strong>6 разработчиков</strong>: адаптация, техническая документация, регулярное code review.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🎯</span><span>Провёл <strong>более 50 технических интервью</strong>, по итогам которых наняты 10 разработчиков.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🤖</span><span>Внедряет AI в процесс разработки: формирует контекст проекта и инструкции для анализа кода, рефакторинга и разработки нового функционала.</span></li>
+		</ul>
+
+		<div class="world-tags">
+			<span>PHP</span><span>Symfony</span><span>Yii2</span><span>ClickHouse</span><span>Code Review</span><span>Менторство</span>
+		</div>
+	</template>
+
+	<template id="modal-exp-2">
+		<div class="modal-head">
+			<span class="world-num">WORLD 1-2</span>
+			<span class="world-date">Окт 2021 — Фев 2022 · 5 мес</span>
+		</div>
+		<h3 id="modalTitle">PHP developer <span class="at">@ PLADO.MARKET</span></h3>
+		<p class="world-sub">E-commerce платформа</p>
+		<p class="modal-desc">Разработка и развитие backend-функционала и интеграций e-commerce платформы.</p>
+
+		<h4 class="modal-subtitle">Ключевые результаты</h4>
+		<ul class="modal-achievements">
+			<li><span class="ach-icon" aria-hidden="true">🚚</span><span>С нуля спроектировал и реализовал <strong>интеграцию со службой доставки</strong>: архитектура взаимодействия, обмен данными, встраивание в бизнес-процессы.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🤖</span><span>Расширил функциональность <strong>Telegram-бота</strong>, добавив новые сценарии взаимодействия.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">📊</span><span>Развивал аналитические отчёты и внутренние инструменты платформы.</span></li>
+		</ul>
+
+		<div class="world-tags">
+			<span>PHP</span><span>Интеграции</span><span>Telegram Bot API</span>
+		</div>
+	</template>
+
+	<template id="modal-exp-3">
+		<div class="modal-head">
+			<span class="world-num">WORLD 1-3</span>
+			<span class="world-date">Март 2021 — Дек 2021 · 10 мес</span>
+		</div>
+		<h3 id="modalTitle">Yii2-developer <span class="at">@ <a href="https://ngym.ru/" target="_blank" rel="noopener">NanoGym</a></span></h3>
+		<p class="world-sub">CRM-система для фитнес-индустрии</p>
+		<p class="modal-desc">Разработка и развитие функционала CRM-системы на Yii2, оптимизация и API.</p>
+
+		<h4 class="modal-subtitle">Ключевые результаты</h4>
+		<ul class="modal-achievements">
+			<li><span class="ach-icon" aria-hidden="true">⚡</span><span>Оптимизировал формирование отчётов CRM, улучшив скорость работы с большими объёмами данных.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🔌</span><span>Спроектировал и реализовал <strong>новую версию API</strong> платформы для расширения интеграций.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🔄</span><span>Выполнил миграцию пользователей между платформами с сохранением данных и работоспособности.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">📩</span><span>Разработал интеграцию со SMS-сервисом для автоматизации уведомлений.</span></li>
+		</ul>
+
+		<div class="world-tags">
+			<span>Yii2</span><span>PHP</span><span>REST API</span><span>SQL</span>
+		</div>
+	</template>
+
+	<template id="modal-exp-4">
+		<div class="modal-head">
+			<span class="world-num">WORLD 1-4</span>
+			<span class="world-date">Ноя 2018 — Март 2021 · 2 года 5 мес</span>
+		</div>
+		<h3 id="modalTitle">Преподаватель клуба программистов <span class="at">@ ГК «СТЭК»</span></h3>
+		<p class="world-sub">Внутренние ИТ-решения и обучение программированию</p>
+		<p class="modal-desc">Разработка внутренних систем и проведение образовательных курсов по программированию для детей.</p>
+
+		<h4 class="modal-subtitle">Ключевые результаты</h4>
+		<ul class="modal-achievements">
+			<li><span class="ach-icon" aria-hidden="true">🌐</span><span>Разработал <strong>корпоративный сайт компании</strong> с нуля.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">📚</span><span>Спроектировал платформу для хранения и доступа к учебным материалам и курсам.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🗂️</span><span>Разработал <strong>CRM-систему</strong> для учёта занятий, групп и учебного процесса.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🎓</span><span>Подготовил образовательные модули и методические материалы для курсов.</span></li>
+		</ul>
+
+		<div class="world-tags">
+			<span>PHP</span><span>Преподавание</span><span>CRM</span>
+		</div>
+	</template>
+
+	<template id="modal-proj-sevand">
+		<div class="modal-head">
+			<span class="world-num">SIDE QUEST</span>
+			<span class="world-date">2022 — настоящее время · в продакшене</span>
+		</div>
+		<h3 id="modalTitle">SEVAND <span class="at">@ <a href="https://gitlab.com/gjhonic/sevand_new" target="_blank" rel="noopener">GitLab</a></span></h3>
+		<p class="world-sub">Система учёта посещаемости и мероприятий вуза</p>
+		<p class="modal-desc">
+			Разработал и поддерживаю систему на <strong>Yii2 / PHP</strong> с ролевой моделью доступа (RBAC) и Bootstrap 5:
+			учёт студентов, групп, посещаемости занятий и мероприятий. Проектом на постоянной основе пользуется факультет
+			в реальном учебном процессе.
+		</p>
+
+		<div class="modal-stats">
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="1600" data-suffix="+">0</span>
+				<span class="stat-tile-label">студентов в системе</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="60" data-suffix="+">0</span>
+				<span class="stat-tile-label">учебных групп</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="20" data-suffix="к+">0</span>
+				<span class="stat-tile-label">записей о посещаемости</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+			<div class="stat-tile">
+				<span class="stat-tile-num" data-count="10" data-suffix="к+">0</span>
+				<span class="stat-tile-label">мероприятий проведено</span>
+				<span class="stat-tile-bar"></span>
+			</div>
+		</div>
+
+		<h4 class="modal-subtitle">Ключевые результаты</h4>
+		<ul class="modal-achievements">
+			<li><span class="ach-icon" aria-hidden="true">🏫</span><span>Система используется факультетом на постоянной основе для реального учёта посещаемости студентов.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🔐</span><span>Реализована <strong>ролевая модель доступа (RBAC)</strong> для разграничения прав преподавателей, кураторов и администраторов.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">📈</span><span>Накоплено <strong>более 20 000 записей о посещаемости</strong> и <strong>более 10 000 мероприятий</strong> по <strong>60+ группам</strong> и <strong>1600+ студентам</strong>.</span></li>
+			<li><span class="ach-icon" aria-hidden="true">🛠️</span><span>Единолично веду проект от архитектуры и миграций базы данных до сопровождения в проде.</span></li>
+		</ul>
+
+		<div class="world-tags">
+			<span>Yii2</span><span>PHP</span><span>RBAC</span><span>Bootstrap 5</span><span>MySQL</span>
+		</div>
+	</template>
+
+	<script src="js/main.js"></script>
+	<script src="js/runner.js"></script>
+</body>
 </html>
